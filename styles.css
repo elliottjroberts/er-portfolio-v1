@@ -95,4 +95,21 @@ a:hover::before {
 li {
   text-decoration: none;
 }
+
+.page-button {
+  border-style: solid;
+  border-width: thin;
+  letter-spacing: 0.1em;
+  padding: 5px;
+}
+
+.page-button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+a button {
+  text-decoration: none;
+}
 /*# sourceMappingURL=styles.css.map */
