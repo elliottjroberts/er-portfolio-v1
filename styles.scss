@@ -27,7 +27,8 @@ header {
     a {
         text-transform: uppercase;
         padding-right: 10px;
-        font-family: 'PT Sans', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+
         
     }
 
@@ -42,32 +43,33 @@ header {
 .text {
     background-color:  #ebebe0;
     margin: 80px;
+    position: relative;
+    height: 100vh;
+    margin-top: 100px;
 }
 
 h1 {
     color: black;
     font-size: 4.5em;
+    font-family: 'Lora', serif;
 }
 
 p {
     font-size: 0.9em;
-    font-family: 'Open Sans', sans-serif;
     word-wrap: break-word;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a {
     position: relative;
     color: #000;
     text-decoration: none;
-    font-family: open;
   }
   
   a:hover {
     color: blue;
   }
   
-  
-
   .page-button {
       border-style: solid;
       border-width: thin;
@@ -85,3 +87,15 @@ a {
   a button {
       text-decoration: none;
   }
+
+  .social {
+      display: inline-flex;
+      position: relative;
+      font-size: 1.5em;
+      letter-spacing: 10px;
+    }
+
+    .about {
+        height: 100vh;
+        margin-left: 80px;
+    }
