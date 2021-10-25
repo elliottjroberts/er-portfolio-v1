@@ -45,7 +45,7 @@ header {
     margin: 80px;
     position: relative;
     height: 100vh;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 h1 {
@@ -64,10 +64,6 @@ a {
     position: relative;
     color: #000;
     text-decoration: none;
-  }
-  
-  a:hover {
-    color: blue;
   }
   
   .page-button {
@@ -93,9 +89,22 @@ a {
       position: relative;
       font-size: 1.5em;
       letter-spacing: 10px;
-    }
+  }
+  a:hover {
+    color:grey;
+  }
 
     .about {
         height: 100vh;
         margin-left: 80px;
+    }
+
+    .arrow {
+        width: 15px;
+        height: 15px;
+        border-top: 2px solid #000;
+        border-right: 2px solid #000;
+        transform: rotate(135deg);
+        margin-top: 100px;
+        animation: bounce 1s ease-in-out infinite;
     }
