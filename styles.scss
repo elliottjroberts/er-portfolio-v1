@@ -1,50 +1,49 @@
-
-body {
-  background-color: #ebebe0;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color:  #ebebe0;
 }
 
-.logo { 
-    cursor: pointer;
+section {
+    height: 100vh;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color:#ebebe0;
+    width: 80%;
+    margin: auto;
+}
+
+.logo-container {
+    display: flex;
+    cursor: pointer;
+    flex: 1;
+}
+
+nav {
+    flex: 1;
 }
 
 .nav-links {
     list-style: none;
-    text-transform: none;
-    position: relative ;
-    
-    li {
-        display: inline-flex;
-    }
-    
-    a {
-        text-transform: uppercase;
-        padding-right: 10px;
-        font-family: 'Montserrat', sans-serif;
+    justify-content: space-around;
+    text-transform: uppercase;
+}
 
-        
-    }
+.logo-container,
+.nav-links {
+    display: flex;
+    margin-top: 20px;
+}
 
-    a:hover {
-        cursor: pointer;
-        border-bottom: 1px solid black;
-        color: black;
-        transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-    }
+.first-page {
+    background-color:  #ebebe0;
 }
 
 .text {
-    background-color:  #ebebe0;
     margin: 80px;
     position: relative;
-    height: 100vh;
     margin-top: 150px;
 }
 
@@ -64,47 +63,33 @@ a {
     position: relative;
     color: #000;
     text-decoration: none;
-  }
-  
-  .page-button {
-      border-style: solid;
-      border-width: thin;
-      letter-spacing: 0.1em;
-      padding: 5px;
-  }
+}
 
-  .page-button:hover {
-      background-color: black;
-      color: white;
-      cursor: pointer;
-
-  }
-
-  a button {
+a button {
       text-decoration: none;
-  }
+}
 
-  .social {
-      display: inline-flex;
+.social {
+      display: inline;
       position: relative;
       font-size: 1.5em;
-      letter-spacing: 10px;
-  }
-  a:hover {
+      margin-left: 80px;
+}
+
+a:hover {            
     color:grey;
-  }
+}
 
-    .about {
-        height: 100vh;
-        margin-left: 80px;
-    }
+.arrow {
+    width: 15px;
+    height: 15px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    transform: rotate(135deg);
+    margin-top: 100px;
+    animation: bounce 1s ease-in-out infinite;
+}
 
-    .arrow {
-        width: 15px;
-        height: 15px;
-        border-top: 2px solid #000;
-        border-right: 2px solid #000;
-        transform: rotate(135deg);
-        margin-top: 100px;
-        animation: bounce 1s ease-in-out infinite;
-    }
+.arrow-bottom {
+    margin-left: 80px;
+}
