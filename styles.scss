@@ -1,95 +1,14 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    background-color:  #ebebe0;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
-section {
-    height: 100vh;
-}
-
-header {
+.nav-bar {
+    background: green
+    height: 80px;
     display: flex;
-    width: 80%;
-    margin: auto;
-}
-
-.logo-container {
-    display: flex;
-    cursor: pointer;
-    flex: 1;
-}
-
-nav {
-    flex: 1;
-}
-
-.nav-links {
-    list-style: none;
-    justify-content: space-around;
-    text-transform: uppercase;
-}
-
-.logo-container,
-.nav-links {
-    display: flex;
-    margin-top: 20px;
-}
-
-.first-page {
-    background-color:  #ebebe0;
-}
-
-.text {
-    margin: 80px;
-    position: relative;
-    margin-top: 150px;
-}
-
-h1 {
-    color: black;
-    font-size: 4.5em;
-    font-family: 'Lora', serif;
-}
-
-p {
-    font-size: 0.9em;
-    word-wrap: break-word;
-    font-family: 'Montserrat', sans-serif;
-}
-
-a {
-    position: relative;
-    color: #000;
-    text-decoration: none;
-}
-
-a button {
-      text-decoration: none;
-}
-
-.social {
-      display: inline;
-      position: relative;
-      font-size: 1.5em;
-      margin-left: 80px;
-}
-
-a:hover {            
-    color:grey;
-}
-
-.arrow {
-    width: 15px;
-    height: 15px;
-    border-top: 2px solid #000;
-    border-right: 2px solid #000;
-    transform: rotate(135deg);
-    margin-top: 100px;
-    animation: bounce 1s ease-in-out infinite;
-}
-
-.arrow-bottom {
-    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
 }
